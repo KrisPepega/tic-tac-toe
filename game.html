@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Please select gamemode!</h1>
+        <div class="grid-container">
+            <button class="button grid-btn" id="g00" value="00"></button>
+            <button class="button grid-btn" id="g01" value="01"></button>
+            <button class="button grid-btn" id="g02" value="02"></button>
+
+            <button class="button grid-btn" id="g10" value="10"></button>
+            <button class="button grid-btn" id="g11" value="11"></button>
+            <button class="button grid-btn" id="g12" value="12"></button>
+
+            <button class="button grid-btn" id="g20" value="20"></button>
+            <button class="button grid-btn" id="g21" value="21"></button>
+            <button class="button grid-btn" id="g22" value="22"></button>
+
+        </div>
+        <button class="button btn" id="btn_1play">1 player</button>
+        <button class="button btn" id="btn_2play">2 player</button>
+
+        <div class="list">
+            <ul>
+                <p>RULES FOR TIC-TAC-TOE.</p>
+                <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+                <li>You are X, your friend or the computer is O.</li>
+                <li>The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.</li>
+                <li>When all 9 squares are full, the game is over.</li>
+                <p>*Reset the game by clicking the button corresponding to your current gamemode</p>
+            </ul>
+        </div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>
